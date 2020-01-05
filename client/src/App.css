@@ -1,0 +1,121 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 300;
+    background-color: rgb(253, 253, 253);
+   }
+h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size: 300%;
+}
+   
+h1, h2, h3, h4, h5, h6 {
+font-weight: 650;
+text-align: center;
+font-family: 'Chelsea Market', cursive;
+}
+
+.dishes,.bestdishes,.yourRanks{
+    width: 33%;
+    height: 80vh;
+    margin: 0 auto;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    float: left;
+}
+.yourRanks h2 {
+    padding-bottom: 26px;
+}
+.dish,.userrate{
+    background-color: lightgreen;
+    border: 1px solid black;
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.dishHeading{
+    min-height: 40px;
+}
+
+.dishName,.dishName2{
+    font-weight: bold;
+    font-size: 15px;
+    display: inline-block;
+    width: 280px;
+
+}
+.dishName:hover{
+    color: red;
+    cursor: pointer;
+}
+.dishRating{
+    position:relative;
+    left: 285px;
+    top: -15px;
+    width: 30px;
+    text-align: center;
+
+
+}
+.ratingSection p,.details strong {
+    font-size: 15px;
+    font-weight: 500;
+    font-style: italic;
+}
+.details{
+    font-size: 15px;
+}
+.comment {
+    font-size: 12px;
+}
+.dishes #mealToggle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+button{
+    background-color: #4CAF50; /* Green */
+    border: 1px solid white;
+    color: white;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 12px;
+  }
+
+input{
+    padding: 3px 10px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.ratingButton:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+.ratedButton{
+    background-color: red;
+}
+
+.warning,#errorUsername,#incorrectLogin,#successfulSignup{
+    font-weight:bold;
+    color: red;
+    font-size: 75%;
+}
+
+.userDetails,.explanation{
+    width: 45%;
+    display: inline-block;
+    padding: 20px;
+}
+.explanation {
+    padding-left: 40px;
+}
+.createAcct,.login,.logout,.loggedIn {
+    text-align: center;
+}
+.userDetails {
+    position: relative;
+    top: -20px;
+}
+
